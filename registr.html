@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Web Page </title>
+		<meta charset = "utf-8">
+		<link href = "src/css/registr.css" rel = "stylesheet">
+	</head>
+	<body>
+		<div class = "container">
+		  <header> <a href = "index.html"> Home </a> <a href = "login.html"> Log in </a></header>
+        </div>
+        <div class="underHeader">
+            <div class="loginWindow">
+                <input class="eachField" placeholder="First name"/>
+                <input class="eachField" placeholder="Second name"/>
+                <select class="customSelect">
+                    <option value="" disabled selected id="notDisplay">
+                        City
+                    </option>      
+                    <option value="volvo">Yerevan</option>
+                    <option value="saab">Gyumri</option>
+                    <option value="opel">Hrazdan</option>
+                    <option value="audi">Abovyan</option>
+                </select>
+                
+                <div class="radioRow">
+                    <input type="radio" name="gender" value="male"/>Male
+                    <input type="radio" name="gender" value="female"/>Female
+                </div>
+                <div class="footerOfWindow">
+                    <input type="checkbox"/> 
+                    <p>
+                        Send me Email
+                    </p>
+                    <button class="confirmButton"> Log In</button>
+                </div>
+                
+            </div>
+        </div>
+	</body>
+</html>
